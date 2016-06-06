@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin/>
+        <origin/>
+        <origin/>
+        <origin/>
+        <origin/>
+        <origin/>
+        <pubdate>20070301</pubdate>
+        <title>Average Monthly Precipitation for April (Inches): California, 1981-2010 (800m)</title>
+        <geoform>raster digital data</geoform>
+        <onlink>http://purl.stanford.edu/jb752mv4420</onlink>
+        <lworkcit>
+          <citeinfo>
+            <pubdate>20000101</pubdate>
+            <title>California Department of Fish and Wildlife GIS Maps and Data</title>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This raster layer contains the average monthly precipitation levels in inches for April 1981-2010. This dataset incorporates a conceptual framework that uniquely addresses the spatial scale and pattern of orographic precipitation. The original PRISM dataset covered the United States. This is a California-only version subsetted from the original data set and converted to California Teale Albers NAD83 using bilinear interpolation by the California Department of Fish and Game (CDFG) at 800m resolution. The grid units are presented in inches with floating point. Care should be taken in estimating precipitation values at any single point on the map. Precipitation estimated for each grid cell is an average over the entire area of that cell; thus, point precipitation can be estimated at a spatial precision no better than half the resolution of a cell. Accuracy of this data set is based on the original specification of the Defense Mapping Agency (DMA) 1 degree digital elevation models (DEMs). The stated accuracy of the original DEMs is 130m circular error with 90% probability. </abstract>
+      <purpose>The Parameter-elevation Regressions on Independent Slopes Model (PRISM) Climate Group works on a range of projects, some of which support the development of spatial climate datasets. These PRISM datasets provide estimates of the basic climate element of precipitation (ppt), or the Daily total precipitation averaged over a month for both rain and melted snow. These datasets are modeled with PRISM using a digital elevation model (DEM) as the predictor grid and provide baselines describing average monthly precipitation between 1981 and 2000 to be used for display and/or analyses requiring spatially distributed monthly or annual precipitation. Grids were modeled on a monthly basis. Annual grids were produced by averaging (temperatures) or summing (precipitation) the monthly grids.</purpose>
+      <supplinf>There are many methods of interpolating precipitation from monitoring stations to grid points. Some provide estimates of acceptable accuracy in flat terrain, but few have been able to adequately explain the extreme, complex variations in precipitation that occur in mountainous regions. Significant progress in this area has been achieved through the development of PRISM (Parameter-elevation Regressions on Independent Slopes Model). PRISM is an analytical model that uses point data and a digital elevation model (DEM) to generate gridded estimates of monthly and annual precipitation (as well as other climatic parameters). PRISM is well suited to regions with mountainous terrain, because it incorporates a conceptual framework that addresses the spatial scale and pattern of orographic precipitation.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19810101</begdate>
+          <enddate>20101231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <spdom>
+      <bounding>
+        <westbc>-125.189867</westbc>
+        <eastbc>-113.258813</eastbc>
+        <northbc>42.181948</northbc>
+        <southbc>32.244744</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>lcsh</themekt>
+        <themekey>Climate</themekey>
+        <themekey>Precipitation normals</themekey>
+        <themekey>Rain and rainfall</themekey>
+        <themekey>Digital elevation models</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
+        <themekey>elevation</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>geonames</placekt>
+        <placekey>California</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>1981-2010</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>No restrictions on access or use. Please cite the authors when possible.</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Oregon State University</cntorg>
+          <cntper>Daly, Chris</cntper>
+        </cntorgp>
+        <cntpos>Senior Research Professor</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>103 Gleeson Hall</address>
+          <city>Corvallis</city>
+          <state>OR</state>
+          <postal>97331</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>541-737-2531</cntvoice>
+        <cntemail>chris.day@oregonstate.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Oregon Climate Service</cntorg>
+          <cntper>Taylor, George</cntper>
+        </cntorgp>
+        <cntpos>Manager</cntpos>
+        <cntinst>George Taylor retired from his position as Manager of the Oregon Climate Service at Oregon State University in May 2008. He is currently the President of Applied Climate Services of Corvallis, Oregon, online at http://www.appliedclimate.net.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>California. Department of Fish and Wildlife</cntorg>
+          <cntper>Patterson, Will</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist/Data Manager</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1807 13th St., Ste. 202</address>
+          <city>Sacramento</city>
+          <state>CA</state>
+          <postal>95811</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>916-323-1484</cntvoice>
+        <cntemail>Will.Patterson@wildlife.ca.gov</cntemail>
+        <cntemail>bdb@wildlife.ca.gov</cntemail>
+        <cntinst>Email is preferred contact method.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <datacred>California Department of Fish and Wildlife. (2007). Average Monthly Precipitation for April: California, 1981-2010 (800m). California Department of Fish and Wildlife. Available at: http://purl.stanford.edu/jb752mv4420</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>It is beyond the scope of this metadata to document the processes involved in generating spatially gridded precipitation using the PRISM  model. However, the processes are documented in numerous conference  proceedings and journal articles. The references can be found online at  &lt;URL:http://www.ocs.orst.edu/prism/prism_new.html&gt;.</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>California. Department of Fish and Wildlife</cntorg>
+              <cntper>Patterson, Will</cntper>
+            </cntorgp>
+            <cntpos>GIS Specialist/Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>physical</addrtype>
+              <address>1807 13th St., Ste. 202</address>
+              <city>Sacramento</city>
+              <state>CA</state>
+              <postal>95811</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>916-323-1484</cntvoice>
+            <cntemail>Will.Patterson@wildlife.ca.gov</cntemail>
+            <cntemail>bdb@wildlife.ca.gov</cntemail>
+            <cntinst>Email is preferred contact method.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Downloaded data and metadata from ( http://www.ocs.oregonstate.edu/prism/index.phtml ).  Converted to ESRI grid format.  Calculated value attribute by dividing original PRISM value by 100 (was originally mm * 100).  Added/calculated mm and inches attributes.  Changed datum reference from WGS72 to NAD83 (did not physically shift the data, just changed the definition for easier compatibility with other NAD83 datasets - minor difference between WGS72 and NAD83 given the scale of the data).</procdesc>
+        <procdate>20061001</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>California. Department of Fish and Wildlife</cntorg>
+              <cntper>Patterson, Will</cntper>
+            </cntorgp>
+            <cntpos>GIS Specialist/Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>physical</addrtype>
+              <address>1807 13th St., Ste. 202</address>
+              <city>Sacramento</city>
+              <state>CA</state>
+              <postal>95811</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>916-323-1484</cntvoice>
+            <cntemail>Will.Patterson@wildlife.ca.gov</cntemail>
+            <cntemail>bdb@wildlife.ca.gov</cntemail>
+            <cntinst>Email is preferred contact method.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The original data set covered the United States.  This is a California-only version subsetted from the original data set and converted to California Teale Albers NAD83 using bilinear interpolation by the California Department of Fish and Game.  Adapted DFG version of metadata from previously downloaded source metadata.  Portions of this metadata document may refer to the original United States version.</procdesc>
+        <procdate>20070301</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>California. Department of Fish and Wildlife</cntorg>
+              <cntper>Patterson, Will</cntper>
+            </cntorgp>
+            <cntpos>GIS Specialist/Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>physical</addrtype>
+              <address>1807 13th St., Ste. 202</address>
+              <city>Sacramento</city>
+              <state>CA</state>
+              <postal>95811</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>916-323-1484</cntvoice>
+            <cntemail>Will.Patterson@wildlife.ca.gov</cntemail>
+            <cntemail>bdb@wildlife.ca.gov</cntemail>
+            <cntinst>Email is preferred contact method.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>1305</rowcount>
+      <colcount>1189</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>cappt6190l01.vat</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Rowid</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VALUE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INCHES</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Stanford Geospatial Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>Branner Earth Sciences Library</address>
+          <address>Mitchell Building, 2nd Floor</address>
+          <address>397 Panama Mall</address>
+          <city>Stanford</city>
+          <state>California</state>
+          <postal>94305</postal>
+        </cntaddr>
+        <cntvoice>650-723-2746</cntvoice>
+        <cntemail>brannerlibrary@stanford.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150707</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>California. Department of Fish and Wildlife</cntorg>
+          <cntper>Patterson, Will</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist/Data Manager</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>1807 13th St., Ste. 202</address>
+          <city>Sacramento</city>
+          <state>CA</state>
+          <postal>95811</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>916-323-1484</cntvoice>
+        <cntemail>Will.Patterson@wildlife.ca.gov</cntemail>
+        <cntemail>bdb@wildlife.ca.gov</cntemail>
+        <cntinst>Email is preferred contact method.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
